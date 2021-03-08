@@ -1,6 +1,6 @@
-from PIH import Person
-from PIH import Employee
-from PIH import Customer
+from person import Person
+from employee import Employee
+from customer import Customer
 
 manz_person = Person('Manz', 'F')
 print(manz_person)
