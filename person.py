@@ -6,6 +6,9 @@ class Person:
     def __str__(self):
         return "Name: " + self._name + "\nGender: " + self._gender
 
+    def get_name(self):
+        return self._name + " is a person"
+
 
 
 

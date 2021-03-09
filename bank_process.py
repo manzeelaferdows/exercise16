@@ -8,7 +8,7 @@ print(joint_account.withdrawn(10))
 print(savings_account.deposit(300))
 
 
-print(joint_account._balance)
+print(joint_account.balance)
 
 
 

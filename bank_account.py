@@ -13,3 +13,7 @@ class Account:
         self._balance -= amount
         return self._balance
 
+    @property
+    def balance(self):
+        return self._balance
+
